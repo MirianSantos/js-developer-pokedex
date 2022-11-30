@@ -4,19 +4,28 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #fff;
+    
+    
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #faf8f8;
+    background-image: url("/img/pokeball1.png"), url("/img/pokeball3\ .png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 300px;
+    
 }
+
 
 @media screen and (min-width: 992px) {
     .content {
-        max-width: 992px;
+        max-width: 800px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;

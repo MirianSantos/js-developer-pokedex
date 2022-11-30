@@ -1,0 +1,87 @@
+.barra-topo {
+    width: 100%;
+    height: 35px;
+    
+}
+
+.barra-topo div {
+    width: 50%;
+    
+}
+
+.barra-topo .btn-voltar {
+    float: left;
+}
+
+.barra-topo .div-number {
+    float: right;
+    text-align: right;
+}
+
+.barra-topo .number {
+    color: rgb(148, 146, 146);
+    font-size: 1.5rem;    
+}
+
+.barra-topo .name {
+    text-align: center;
+     
+}
+
+.pokemon-details .detail {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.pokemon-details .detail img {
+    width: 200px;
+    height: auto;
+    list-style: none;  
+   
+}
+
+.pokemon-details .name {
+    text-transform: capitalize;
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(148, 146, 146);
+    line-height: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.detail-types div {
+    text-transform: capitalize;
+    display: inline;
+    color: rgb(148, 146, 146);
+    margin-right: 10px;
+   
+}
+
+.pokemon-details .about {
+    font-size: 20px;
+    color: rgb(19, 18, 18);;
+    padding: 15px;
+    border: 1px solid #c1c5c5;
+    border-radius: 11px;
+    background-color: #f6f8fc;
+    opacity: .7;
+    margin-top: 36px;
+    line-height: 2rem;
+}
+
+.fa-arrow-left {
+    font-size: 30px;
+    color: rgb(148, 146, 146);
+    
+}
+
+.fa-arrow-left:hover {
+    color: #535353;
+}
+
+.detail-imc span {
+    color: rgb(148, 146, 146);
+    
+}
